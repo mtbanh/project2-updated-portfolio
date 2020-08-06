@@ -50,11 +50,11 @@ body {
     border-radius: 0 0 3px 3px;
   }
 
-  .panel {
+  .card {
     position: absolute;
     /* width: 200px;
     height: 300px; */
-    top: 25%;
+    top: 35%;
     left: 25%;
     padding: 20px;
     border-radius: 4px;
@@ -62,8 +62,24 @@ body {
     z-index: 100
   }
 
-  .level{
-    font-size: 30px;
+  
+
+  .hero{
+    position: absolute;
+  
+    top: 15%;
+    left: 25%;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+    /* font-size: 40px; */
   }
 
-  
+  #name{
+    font-size: 40px;
+  }
+
+  a {
+  color: white;
+  }
